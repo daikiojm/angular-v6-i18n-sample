@@ -6,6 +6,7 @@
         <source>
     Welcome to <x id="INTERPOLATION" equiv-text="{{ title }}"/>!
   </source>
+        <target>ようこそ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">3</context>
@@ -13,6 +14,7 @@
       </trans-unit>
       <trans-unit id="54f29f9a6da150fc7c4fcd0b7e6d9a1b0314fd35" datatype="html">
         <source>Here are some links to help you start: </source>
+        <target>いい感じのいい感じのリンク一覧:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">8</context>
@@ -20,6 +22,7 @@
       </trans-unit>
       <trans-unit id="170b2bb80cfeeaf71c71cd4b56d240fdda4dfc0b" datatype="html">
         <source>Tour of Heroes</source>
+        <target>公式チュートリアル</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">11</context>
@@ -27,6 +30,7 @@
       </trans-unit>
       <trans-unit id="4446b939821a1c94d99d8f88ebf5c67844d48d08" datatype="html">
         <source>CLI Documentation</source>
+        <target>CLI ドキュメント</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">14</context>
@@ -34,6 +38,7 @@
       </trans-unit>
       <trans-unit id="f7b003c76057ba9ff6d99232971f826d015eaf54" datatype="html">
         <source>Angular blog</source>
+        <target>Angular ブログ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">17</context>

@@ -44,6 +44,47 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true
+            },
+            "en": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "outputPath": "dist/en",
+              "baseHref": "/en/"
+            },
+            "ja": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "outputPath": "dist/ja",
+              "baseHref": "/ja/",
+              "i18nFile": "src/locale/messages.ja.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "ja"
             }
           }
         },
@@ -55,6 +96,14 @@
           "configurations": {
             "production": {
               "browserTarget": "angular-v6-i18n-sample:build:production"
+            },
+            "en": {
+              "browserTarget": "angular-v6-i18n-sample:build:en",
+              "baseHref": "/en/"
+            },
+            "ja": {
+              "browserTarget": "angular-v6-i18n-sample:build:ja",
+              "baseHref": "/ja/"
             }
           }
         },

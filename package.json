@@ -3,8 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "npm run start:en && npm run start:ja",
+    "start:en": "ng serve --configuration=en --port 4200 --proxy-config proxy.conf.json",
+    "start:ja": "ng serve --configuration=ja --port 4300",
+    "build": "npm run build:en && npm run build:ja",
+    "build:en": "ng build --configuration=en",
+    "build:ja": "ng build --configuration=ja",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
